@@ -1,0 +1,40 @@
+/*Name this external file gallery.css*/
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+
+#image {
+    line-height: 415px;
+    width: 650px;
+    height: 415px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat:round;
+    color: #000000;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom: 25px;
+    font-size: 170%;
+}
+
+.preview {
+    width: 80%;
+    height: 80%;
+    margin: 2%;
+    border: 10px solid black;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50%;
+    justify-items: center;
+    
+}
+
+img {
+   width: 95%;
+}
